@@ -14,6 +14,8 @@ public class Projekat {
 	private String nazivKlijenta;
 	private Boolean arhiviran;
 	
+		public Projekat(){};
+	
 	public Projekat(String naziv, String nazivKlijenta, Koordinator koordinator) throws InvalidAttributeValueException 
 	{
 		setNaziv(naziv);
