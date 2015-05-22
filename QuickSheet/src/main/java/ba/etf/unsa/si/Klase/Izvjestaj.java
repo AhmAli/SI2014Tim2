@@ -13,7 +13,7 @@ public abstract class Izvjestaj {
 	
 	public Izvjestaj(Projekat _projekat) throws InvalidAttributeValueException 
 	{
-		setProjekat(_projekat);
+	projekat = _projekat;
 	}
 	
 	public Projekat getProjekat() 
