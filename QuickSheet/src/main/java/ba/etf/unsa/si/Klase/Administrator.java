@@ -7,6 +7,8 @@ public class Administrator {
 	private String username;
 	private String lozinka;
 	
+	public Administrator(){};
+	
 	public Administrator(String _username, String _lozinka) throws InvalidAttributeValueException 
 	{
 		setUsername(_username);
