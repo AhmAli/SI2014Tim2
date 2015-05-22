@@ -11,6 +11,8 @@ public class Odjel {
 	private Integer maksimalanBrojRadnika;
 	private Boolean arhiviran;
 	
+		public Odjel(){};
+	
 	public Odjel(String _naziv, int _maksimalanBrojRadnika) throws InvalidAttributeValueException 
 	{
 		setNaziv(_naziv);
