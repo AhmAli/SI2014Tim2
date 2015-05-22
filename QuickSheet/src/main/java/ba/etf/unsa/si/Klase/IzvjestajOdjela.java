@@ -6,6 +6,9 @@ public class IzvjestajOdjela extends Izvjestaj{
 
 	private Odjel odjel;
 	private Integer ukupanBrojTaskovaOdjela;
+	
+	public IzvjestajOdjela(){};
+	
 	public IzvjestajOdjela(Projekat _projekat, Odjel _odjel) throws InvalidAttributeValueException {
 		super(_projekat);
 		setOdjel(_odjel);
