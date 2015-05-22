@@ -9,6 +9,8 @@ public abstract class Izvjestaj {
 	protected Double trosak;
 	protected Double ukupnoVrijemeRada;
 	
+       public Izvjestaj(){};
+	
 	public Izvjestaj(Projekat _projekat) throws InvalidAttributeValueException 
 	{
 		setProjekat(_projekat);
