@@ -13,6 +13,8 @@ public class Timesheet {
 	private Projekat projekat;
 	private Boolean validiran;
 	
+		public Timesheet(){};
+	
 	public Timesheet(LinkedList<Task> _taskovi, Integer _brojRadnihSati, Projekat _projekat, LocalDate _datumSlanja) throws InvalidAttributeValueException 
 	{
 		setBrojRadnihSati(_brojRadnihSati);
