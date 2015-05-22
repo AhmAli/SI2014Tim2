@@ -11,6 +11,9 @@ public class IzvjestajZaposlenika extends Izvjestaj{
 	private Zaposlenik zaposlenik;
 	private Integer ukupanBrojTaskova;
 	public Double decimalanProcenat;
+	
+	public IzvjestajZaposlenika(){};
+	
 	public IzvjestajZaposlenika(Projekat _projekat, Zaposlenik _zaposlenik) throws InvalidAttributeValueException {
 		super(_projekat);
 		setZaposlenik(_zaposlenik);
