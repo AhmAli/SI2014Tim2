@@ -17,6 +17,8 @@ public abstract class Zaposlenik {
 	private Double satnica;
 	private Boolean arhiviran;
 	
+	
+		public Zaposlenik(){}; 
 	public Zaposlenik (String _username, String _ime, String _prezime, String _adresa, LocalDate _datum, double _cijena) throws InvalidAttributeValueException
 	{
 		setUsername(_username);
