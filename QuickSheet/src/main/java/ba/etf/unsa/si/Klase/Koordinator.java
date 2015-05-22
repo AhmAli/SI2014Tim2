@@ -6,6 +6,9 @@ import javax.naming.directory.InvalidAttributeValueException;
 
 public class Koordinator extends Zaposlenik{
 
+
+public Koordinator(){};
+
 	public Koordinator(String _username, String _ime, String _prezime, String _adresa, LocalDate _datum, double _cijena)
 			throws InvalidAttributeValueException {
 		super(_username, _ime, _prezime, _adresa, _datum, _cijena);
